@@ -1,0 +1,26 @@
+{
+  "name": "ChatWork-Ext",
+  "version": "1.0.0",
+  "description": "Chatwork extension",
+  "main": "index.js",
+  "author": "kanzmrsw <anzai.k.aa@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.chatwork.com/",
+    "serviceName": "Chatwork-Ext",
+    "message": "",
+    "popup": [
+      "^https:\/\/www.chatwork.com\/live\/([^~])*",
+      "^https:\/\/www.chatwork.com\/live.php([^~])*"
+    ],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
