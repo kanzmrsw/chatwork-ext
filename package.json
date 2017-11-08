@@ -1,6 +1,7 @@
 {
+  "id": "chatworkext",
   "name": "ChatWork-Ext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chatwork extension",
   "main": "index.js",
   "author": "kanzmrsw <anzai.k.aa@gmail.com>",
